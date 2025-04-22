@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>בויזואליזציה הראשונה שלי</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f4f8fb;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.6em;
+      margin: 0;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .subtitle {
+      font-size: 1.6em;
+      color: #2575fc;
+      margin-bottom: 10px;
+    }
+
+    .content {
+      font-size: 1.1em;
+      line-height: 1.8;
+      margin-bottom: 30px;
+    }
+
+    .tableauPlaceholder {
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 50px;
+    }
+
+    footer {
+      background: #2575fc;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>בויזואליזציה הראשונה שלי</h1>
+  </header>
+
+  <main>
+    <div class="subtitle">פרויקט דאטה שאפתני ב-Tableau</div>
+    <div class="content">
+      בפרויקט זה בניתי לוח מחוונים אינטראקטיבי שמטרתו לנתח התנהגות צרכנית, יעילות עסקית וטרנדים אזוריים. הכלי בו נעשה שימוש הוא Tableau Public, אשר מאפשר המחשה חכמה של נתונים מורכבים.
+      <br><br>
+      <strong>מטרות הדשבורד:</strong>
+      <ul>
+        <li>מעקב אחר ביצועי מכירות לפי אזור</li>
+        <li>השוואת נתוני שביעות רצון לפי קטגוריות מוצרים</li>
+        <li>חיזוי מגמות עתידיות לפי נתוני עבר</li>
+      </ul>
+      הכלי מתאים להצגת ממצאים לפורומים עסקיים, קבלת החלטות ולשיפור מערכות CRM ואנליטיקה.
+    </div>
+
+    <div class="subtitle">הדשבורד:</div>
+    <div class='tableauPlaceholder' id='viz1745322895580' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Dashboard 1' src='https://public.tableau.com/static/images/_1/_17453208671420/Dashboard1/1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='_17453208671420/Dashboard1' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/_1/_17453208671420/Dashboard1/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+  </main>
+
+  <footer>
+    נבנה באהבה במסגרת פרויקט אישי • 2025
+  </footer>
+
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1745322895580');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if (divElement.offsetWidth > 800) {
+      vizElement.style.minWidth = '420px';
+      vizElement.style.maxWidth = '650px';
+      vizElement.style.width = '100%';
+      vizElement.style.minHeight = '587px';
+      vizElement.style.maxHeight = '887px';
+      vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+    } else if (divElement.offsetWidth > 500) {
+      vizElement.style.minWidth = '420px';
+      vizElement.style.maxWidth = '650px';
+      vizElement.style.width = '100%';
+      vizElement.style.minHeight = '587px';
+      vizElement.style.maxHeight = '887px';
+      vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+    } else {
+      vizElement.style.width = '100%';
+      vizElement.style.height = '877px';
+    }
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+</body>
+</html>
